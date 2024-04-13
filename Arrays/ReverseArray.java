@@ -5,11 +5,13 @@ public class ReverseArray {
         int end=arr.length-1;
         reverse(arr, start, end);
         printArray(arr);
+
+        for(int i=end;i>=0;i--){
+            System.out.print(arr[i]+" ");
+        }
+
     }
 
-    for(int i=end;i>=0;i--){
-        System.out.print(arr[i]+" ");
-    }
 
     // OR
 
