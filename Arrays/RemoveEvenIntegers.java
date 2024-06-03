@@ -1,4 +1,4 @@
-package ArrayQuestions;
+package Class;
 
 /**
  * RemoveEvenIntegers
@@ -6,7 +6,7 @@ package ArrayQuestions;
 public class RemoveEvenIntegers {
 
   public static void main(String[] args) {
-    int arr[] = {1, 2, 3, 4, 5, 6, 7, 8};
+    int arr[] = { 1, 2, 3, 4, 5, 6, 7, 8 };
     arr = removeEven(arr);
     System.out.println("Output:");
     printArray(arr);
